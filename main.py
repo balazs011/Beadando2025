@@ -1,4 +1,4 @@
-éáfrom Legitarsasag import Legitarsasag
+from Legitarsasag import Legitarsasag
 from BelfoldiJarat import BelfoldiJarat
 from NemzetkoziJarat import NemzetkoziJarat
 
