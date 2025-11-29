@@ -1,0 +1,22 @@
+from abc import ABC, abstractmethod
+
+class Jarat(ABC):
+    def __init__(self, jaratszam, celallomas, jegyar):
+        self._jaratszam = jaratszam
+        self._celallomas = celallomas
+        self._jegyar = jegyar
+
+    @property
+    def jaratszam(self):
+        return self._jaratszam
+
+    @property
+    def jegyar(self):
+        return self._jegyar
+
+    @property
+    def celallomas(self):
+        return self._celallomas
+
+    def __str__(self):
+        return f"Járat: {self._jaratszam} | Cél: {self._celallomas} | Ár: {self._jegyar} Ft"
