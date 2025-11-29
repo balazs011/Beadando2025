@@ -1,4 +1,4 @@
-from Legitarsasag import Legitarsasag
+éáfrom Legitarsasag import Legitarsasag
 from BelfoldiJarat import BelfoldiJarat
 from NemzetkoziJarat import NemzetkoziJarat
 
@@ -38,7 +38,7 @@ class BookingSystem:
             print("2. Jegy foglalása")
             print("3. Foglalás lemondása")
             print("4. Foglalások listázása")
-            print("5. Kilépés")
+            print("5. Bezárás")
             print("---------------------")
             choice = input("Válassz menüpontot: ")
 
